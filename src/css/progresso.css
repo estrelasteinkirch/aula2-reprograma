@@ -1,0 +1,51 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.progress-title{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.1px;
+    color: #5c2528;
+    text-transform: uppercase;
+    margin: 10px 1px 5px;
+}
+.progress{
+    height: 20px;
+    background:#2b2929;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    display: block;
+    font-size: 12px;
+    color: #2b2929;
+    position: absolute;
+    top: -23px;
+    right: 0;
+}
+@keyframes animate-positive{
+    0%{width: 0%;}
+}
+@-webkit-keyframes animate-positive{
+    0%{width:0%;}
+}
+
+@media screen and (max-width:576px ){
+  .progress-title{
+        font-size:15px; 
+  }
+  .skills{
+        margin: 0 auto;
+  }
+}

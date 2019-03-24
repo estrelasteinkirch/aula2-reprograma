@@ -1,0 +1,153 @@
+/* configurações gerais */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h4 {
+  font-family: Arimo, sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: #dd4274;
+  font-size: 3rem;
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 1rem 0rem 1rem;
+}
+
+h2 {
+  font-family: Arimo, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: #AA4465;
+  padding: 1rem 2rem;
+}
+
+h3 {
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #4357ad;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  color: #aa4465;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+h2 {
+  font-size: 3rem;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    flex-direction: row;
+    justify-content: center;
+      padding: 2rem;
+
+  }
+}
+
+/* Começando no About */
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  order: 1;
+  background-color: #e3bac6;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .about {
+    background-color: #e3bac6;
+    width: 30%;
+    padding: 2rem;
+    order: -1;
+  }
+}
+
+.pessoais, .sociais{
+  margin-bottom: 0.5rem;
+}
+
+.pessoais_container {
+  margin: 2rem 0;
+}
+
+#sobreMim {
+  width: 100%;
+}
+
+.pessoais-pergunta,
+.pessoais-resposta {
+  font-size: 1rem;
+}
+
+
+.contato_icons {
+  display: flex;
+  flex-direction: column;        
+}
+.contato_img{
+  margin: 20px auto;
+  width: 25%;    
+}
+
+.contato_img-icon{
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .contato_img{
+    width: 35%;    
+  }
+}
+
+
+.sobreMim_img{
+  border: 4px solid #ddd;
+  border-radius: 100%;
+  height: 180px;
+  object-fit: cover;
+  width: 180px;
+}
+
+.sobreMim_description {
+  margin: 2.5rem 0;
+}
+@media(min-width:768px){
+  .sobreMim_description{
+      font-size: 1.3rem;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: #4357ad;
+}
+
+.nav-bar_editado .navbar-nav .nav-item a{
+  color: #4357ad;
+}
+.pessoais_resposta-grande{
+  font-size: 1.4rem;
+}

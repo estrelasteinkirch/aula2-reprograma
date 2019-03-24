@@ -1,0 +1,72 @@
+.conteudo {
+  width: 100%;
+  background-color: #FDE8E9;
+  padding: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .conteudo {
+    width: 70%;
+    padding: 2rem;
+  }
+}
+
+#formacao, #habilidades, #experiencia {
+  width: 100%;
+}
+
+
+.formacao_container,
+.experiencia_container {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 0; /*cima/baixo e esq/dir */
+}
+
+.experiencia_resposta {
+  text-align: justify;
+}
+
+.experiencia_pergunta,
+.formacao_pergunta {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .experiencia_container,
+  .formacao_container {
+    flex-direction: row;
+    margin: 1.5rem 0;
+  }
+
+  div.formacao_data,
+  div.experiencia_data {
+    width: 30%;
+    padding-right: 0.75rem;
+  }
+
+  div.formacao_local,
+  div.experiencia_local {
+    width: 70%;
+  }
+
+  h4.formacao_data,
+  h4.experiencia_data {
+    text-align: right;
+  }
+}
+
+h4.pessoais_pergunta{
+  font-weight: bold;
+}
+
+.progresso_barras{
+  display: flex;
+  justify-content: center;
+}
+
+.progresso-redondo_container{
+  display: flex;
+  justify-content: center;
+}
+

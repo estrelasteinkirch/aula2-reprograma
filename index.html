@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Estrela Steinkirch - Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <section class="top-navbar">
+        <nav class="nav-primary navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!--Marca-->
+                <a class="navbar-brand" href="#">Estrela Steinkirch Portfólio</a>
+                <!--Botão---->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Itens da Navegação-->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="curriculo.html">Currículo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Orçamento</a>
+                        </li>
+                        <!--Nav Dropdown-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contato
+                            </a>
+                            <!--Itens Dropdown-->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="https://www.linkedin.com/in/barbara-aguilar/" target="_blank">Linked In</a>
+                                <a class="dropdown-item" href="https://github.com/barbara-aguilar" target="_blank">GitHub</a>
+                                <a class="dropdown-item" href="https://codepen.io/barbara-aguilar/" target="_blank">Code Pen</a>
+                                <a class="dropdown-item" href="https://learn.freecodecamp.org/" target="_blank">Free Code Camp</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Caroussel -->
+    <section class="caroussel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="src/assets/car-01.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="src/assets/car-02.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="src/assets/car-03.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+    <!-- Responsive Image and Text -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-text">
+                <p class="title-section">Sobre Mim</p>
+            </div>
+            <div class="about-img">
+                <img src="src/assets/eu.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <p class="about-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique asperiores, perferendis quos quidem expedita perspiciatis repellendus aliquid mollitia iusto in earum nemo corrupti pariatur blanditiis praesentium corporis possimus assumenda! Illo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quam maiores tempore labore explicabo nisi eaque impedit exercitationem vitae eveniet, voluptate ipsa veritatis suscipit ea nemo itaque nesciunt. Non, obcaecati.
+            </p>
+        </div>
+    </section>
+    <!-- Cards and Modal -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <p class="title-section">Portfólio</p>
+            <p class="servicos-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique asperiores, perferendis quos quidem expedita perspiciatis repellendus aliquid mollitia iusto in earum nemo corrupti pariatur blanditiis praesentium corporis possimus assumenda! Illo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quam maiores tempore labore explicabo nisi eaque impedit exercitationem vitae eveniet, voluptate ipsa veritatis suscipit ea nemo itaque nesciunt. Non, obcaecati.
+                </p>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="src/assets/card1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Site pessoal</h5>
+                        <p class="card-text">Site criado no Workshop da Reprograma</p>
+                    </div>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo-1">
+                        Leia mais
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo-1" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Senai Infocast</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                        imilique asperiores, perferendis quos quidem expedita perspiciatis repellendus aliquid mollitia iusto in earum nemo corrupti pariatur blanditiis praesentium corporis possimus assumenda! Illo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quam maiores tempore labore explicabo nisi eaque impedit exercitationem vitae eveniet, voluptate ipsa veritatis suscipit ea nemo itaque nesciunt. Non, obcaecati.
+
+                                        
+
+                                        <a
+                                    href="https://estrelasteinkirchsouza.netlify.com/"
+                                    target="blank"
+                                    >Visite</a>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="src/assets/card2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Aula de Responsivo</h5>
+                        <p class="card-text">Projeto realizado na aula de Responsivo </p>
+                    </div>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo2">
+                        Acesse
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel2">Signista</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio ea ipsum itaque assumenda corporis, et debitis laborum nobis laudantium? Deleniti molestias saepe laboriosam eligendi qui dicta ipsa impedit id?
+                                    <a
+                                    href="https://estrelareprogramaexercicio1.netlify.com/"
+                                    target="blank"
+                                    >Visite</a
+                                  >
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="src/assets/card3.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfólio</h5>
+                        <p class="card-text">Site Portfólio Responsivo</p>
+                    </div>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo3">
+                        Acesse
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo3" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel3">Know Your Band</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Laudantium aliquam sapiente enim. Natus animi, numquam ratione nisi perspiciatis ullam tempora quos at cum aut libero, eligendi totam. Totam, veniam exercitationem.
+                                    <a
+                                    href="https://estrelaexercicio2.netlify.com/"
+                                    target="blank"
+                                    >Visite</a
+                                  >
+                                    
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-border">
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Forms -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-form">
+                <p class="title-section">Orçamento</p>
+            </div>
+            <form class="form-contact col-10" name="contact">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Nome</label>
+                    <input type="name" class="form-control" name="name" id="exampleFormControlInput1"
+                        placeholder="your name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput2">Email address</label>
+                    <input type="email" class="form-control" name="email" id="exampleFormControlInput2"
+                        placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput3">Telefone</label>
+                    <input type="phone" class="form-control" name="phone" id="exampleFormControlInput3"
+                        placeholder="your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea4">Mensagem</label>
+                    <textarea class="form-control" name="text" id="exampleFormControlTextarea4" rows="3"
+                        placeholder="type your text here"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <nav id="nav-footer" class="navbar navbar-dark bg-dark">
+            <a id="nav-footer-link" class="nav-link" href="https://www.linkedin.com/in/barbara-aguilar/" target="_blank"><i
+                    class="fas fa-code"></i>
+                <p>codado com amor por Bárbara Aguilar</p>
+            </a>
+        </nav>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
