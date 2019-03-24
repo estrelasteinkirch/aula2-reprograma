@@ -1,3 +1,20 @@
+## Exercício da aula 2 da {Reprograma}
+
+# BOOTSTRAP
+Criação de um portfólio e do currículo
+
+## Tecnologias utilizadas
+
+* HTML
+* CSS
+* Bootstrap
+
+Link: https://estrelabootstrap.netlify.com/
+
+
+
+
+
 # Bootstrap
 
 É um dos frameworks front-end mais conhecidos do mundo, especialmente utilizado para criar sites responsivos e mobile. Desenvolvido por Mark Otto e Jacob Thornton no Twitter. Foi lançado como um produto de seu código aberto em agosto de 2011 no GitHub.
